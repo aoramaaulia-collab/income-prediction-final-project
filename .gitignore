@@ -1,0 +1,20 @@
+# --- Python Virtual Environment (Wajib di-ignore) ---
+venv/
+.venv/
+env/
+.env
+
+# --- Python Cache (File sampah otomatis) ---
+__pycache__/
+*.pyc
+
+# --- File Sistem Mac (Karena Anda pakai Mac) ---
+.DS_Store
+
+# --- VS Code Settings ---
+.vscode/
+
+# --- Catatan Penting ---
+# Jangan masukkan 'model_income_xgboost.pkl'
+# Jangan masukkan 'X_sample.csv'
+# Karena kedua file itu DIBUTUHKAN agar aplikasi jalan di web.
